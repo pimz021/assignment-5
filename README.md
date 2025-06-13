@@ -1,12 +1,26 @@
-# React + Vite
+# Campus Club Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application to discover and join student clubs at the university.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
+- React
+- Vite
+- Tailwind CSS
+- React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Dokumentasi Aplikasi Campus Club Finder
 
-## Expanding the ESLint configuration
+## Halaman Utama (Home)
+Halaman utama menampilkan sambutan dan tombol untuk menuju daftar klub.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Home Page Screenshot](path/to/home-screenshot.png)
+
+## Daftar Klub (Clubs)
+Halaman daftar klub yang memungkinkan pengguna untuk melihat semua klub yang tersedia. Pengguna dapat melihat detail lebih lanjut dengan mengklik tombol "View Details".
+
+![Clubs Page Screenshot](path/to/clubs-screenshot.png)
+
+## Detail Klub (Club Detail)
+Halaman ini menampilkan detail lebih lanjut tentang klub, termasuk nama klub, deskripsi, gambar, dan daftar acara mendatang. Pengguna dapat bergabung dengan klub melalui tombol "Join Club".
+
+![Club Detail Screenshot](path/to/club-detail-screenshot.png)
